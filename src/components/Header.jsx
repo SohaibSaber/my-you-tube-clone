@@ -21,7 +21,7 @@ export default function Header({ onMenuClick }) {
   }, [location.pathname, location.search]);
 
   function handleSearch(event) {
-    event.preventDefault(); // React Router navigates without a full page reload.
+    event.preventDefault(); 
     const query = text.trim();
     navigate(query ? `/?q=${encodeURIComponent(query)}` : "/");
     setMobileSearchOpen(false);
