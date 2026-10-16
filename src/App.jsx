@@ -6,7 +6,7 @@ import BottomNav from './components/BottomNav';
 import HomeFeed from './components/HomeFeed';
 import WatchPage from './components/WatchPage';
 
-// A placeholder is more honest than pretending we support signed-in YouTube features.
+
 function ComingSoon({ title, description }) {
   return (
     <section className="mx-auto max-w-3xl px-6 py-10">
